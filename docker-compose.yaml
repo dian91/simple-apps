@@ -8,12 +8,6 @@ services:
       - "5000:3000"
     volumes:
       - vol-simple:/app/public/images/
-    secrets:
-      - simple
 
 volumes:
   vol-simple:
-
-secrets:
-  simple:
-    file: .env
